@@ -219,7 +219,7 @@ body {
 
 .about {
   display: grid;
-  margin: 180px 50px 0;
+  margin: 181px 50px 0;
   grid-template-columns: 430px;
   grid-template-rows: auto;
   height: 487px;
@@ -282,6 +282,7 @@ body {
   flex-direction: column;
   text-align: center;
   list-style: none;
+  line-height: normal;
 }
 
 .footer-social {
