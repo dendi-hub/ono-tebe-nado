@@ -1,12 +1,3 @@
-body {
-  max-width: 1440px;
-  font-size: 18px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24.3px;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -30,6 +21,10 @@ body {
   list-style: none;
 }
 
+.header-menu-item-focused {
+  text-decoration: none;
+}
+
 .header-logo {
   width: 148px;
   height: 105px;
@@ -39,6 +34,7 @@ body {
 
 .header-adress {
   list-style: none;
+  font-style: normal;
 }
 
 .header-adress-item {
@@ -54,7 +50,7 @@ body {
 
 .cover-image {
   width: 1440px;
-  height:  757px;
+  height: 757px;
   position: absolute;
   z-index: -1;
 }
@@ -74,7 +70,6 @@ body {
   display: flex;
   justify-content: flex-start;
   width: 1340px;
-  height: 115px;
   margin-left: 50px;
 }
 
@@ -112,9 +107,7 @@ body {
   letter-spacing: 60px;
 }
 
-.cover-description-text,
-.bet-button {
-  text-align: center;
+.cover-description-text {
   font-family: Raleway;
   font-size: 22px;
   font-style: normal;
@@ -123,6 +116,19 @@ body {
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
+}
+
+.bet-button {
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  background: transparent;
 }
 
 .cover-description {
@@ -149,7 +155,7 @@ body {
 .lots-card-list {
   display: flex;
   gap: 25px;
-  height: 450px;
+  min-height: 450px;
 }
 
 .lots-heading {
@@ -172,9 +178,7 @@ body {
   flex-shrink: 0;
 }
 
-.card-type-film img,
-.card-type-book img,
-.card-type-picture img {
+.card-image-size {
   position: relative;
   z-index: -1;
 }
@@ -222,7 +226,6 @@ body {
   margin: 181px 50px 0;
   grid-template-columns: 430px;
   grid-template-rows: auto;
-  height: 487px;
   justify-items: center;
 }
 
@@ -285,14 +288,26 @@ body {
   line-height: normal;
 }
 
+.footer-menu-item-focused {
+  text-decoration: none;
+}
+
+.footer-adress {
+  list-style: none;
+  font-style: normal;
+}
+
+.footer-adress-item {
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
 .footer-social {
   display: flex;
   width: 240px;
-  height: 48px;
   justify-content: space-between;
 }
 
 .footer-menu-item-size {
   width: 48px;
-  height: 48px;
 }
