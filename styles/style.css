@@ -48,7 +48,7 @@
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, 0.6);
   width: 1440px;
-  height: 757px;
+  min-height: 757px;
 }
 
 .cover-title {
