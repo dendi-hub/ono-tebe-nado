@@ -43,7 +43,7 @@
 }
 
 .overlay {
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, 0.6);
@@ -172,8 +172,10 @@
   flex-direction: column;
   width: 430px;
   height: 450px;
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
 }
 
 .card-type-book {
@@ -184,7 +186,7 @@
   flex-direction: column;
   width: 430px;
   height: 450px;
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
@@ -198,7 +200,7 @@
   flex-direction: column;
   width: 430px;
   height: 450px;
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
