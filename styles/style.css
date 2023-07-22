@@ -43,7 +43,6 @@
 .header-adress-item {
   border-bottom: 1px solid;
   text-decoration: none;
-  
 }
 
 .overlay {
@@ -53,7 +52,6 @@
   height: 100%;
   top: 0;
   left: 0;
-  
 }
 
 .cover {
@@ -169,7 +167,7 @@
   background-size: cover;
   min-height: 450px;
   width: 430px;
-  background-position:center;
+  background-position: center;
   padding: 50px 40px;
   justify-content: space-between;
   position: relative;
