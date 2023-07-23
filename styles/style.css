@@ -16,7 +16,6 @@
   padding: 0;
 }
 
-
 .header-menu-item {
   border-bottom: 1px solid;
   text-decoration: none;
@@ -35,7 +34,6 @@
   width: 148px;
   height: 105px;
   margin: auto;
-
 }
 
 .header-adress {
@@ -48,7 +46,7 @@
 .header-adress-margin-logo {
   display: flex;
   min-width: 743px;
-  justify-content: space-between;  
+  justify-content: space-between;
   align-items: center;
 }
 
