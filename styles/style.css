@@ -47,7 +47,7 @@
 
 .header-adress-margin-logo {
   display: flex;
-  width: 743px;
+  min-width: 743px;
   justify-content: space-between;  
   align-items: center;
 }
